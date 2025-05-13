@@ -3,15 +3,14 @@ from config import app_config
 import logging
 from core.file_watcher import run_watcher_in_thread, load_watched_files
 from core.log_manager import setup_logging
-from database.db import init_db
+from database.db import init_db  # Importez init_db
 
 def create_app(config_name):
     app = Flask(__name__)
-    app.config.from_object(app_config[config_name])
+    app.config.from_object(app_config.app_config[config_name])
 
     setup_logging()
-
-    init_db(app)
+    init_db(app)  # Initialisez la base de données ici (MongoDB)
 
     from webapp import routes
     app.register_blueprint(routes.main_bp)
