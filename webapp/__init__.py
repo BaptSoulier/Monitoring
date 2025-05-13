@@ -3,21 +3,16 @@ from config import app_config
 import logging
 from core.file_watcher import run_watcher_in_thread, load_watched_files
 from core.log_manager import setup_logging
-from flask_pymongo import PyMongo  # Importez PyMongo ici explicitement
+from flask_pymongo import PyMongo
 
-mongo = PyMongo() #Instanciation de pymongo
+mongo = PyMongo()
 
-def create_app(config_name):
+def create_app(config_name="development"): # Added a default value
     app = Flask(__name__)
     app.config.from_object(app_config.app_config[config_name])
 
     setup_logging()
-    # Initialisez PyMongo ici, après avoir créé l'application Flask
-    try:
-        mongo.init_app(app)
-        print("PyMongo initialized successfully!")  # Ajout d'un message de confirmation
-    except Exception as e:
-        print(f"Error initializing PyMongo: {e}")  # Ajout d'un message d'erreur détaillé
+    mongo.init_app(app) # Initialize PyMongo *after* app config
 
     from webapp import routes
     app.register_blueprint(routes.main_bp)
@@ -28,7 +23,7 @@ def create_app(config_name):
 
     return app
 
-app = create_app(config_name="development")
+app = create_app() # removed the config_name argument, will use default
 
 if __name__ == '__main__':
     app.run(debug=app.config['DEBUG'])

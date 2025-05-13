@@ -93,7 +93,6 @@ Ce projet est un outil de surveillance des propriétés des fichiers et de gesti
 moniteur_systeme/
 ├── config/
 │   ├── app_config.py
-│   └── __init__.py
 ├── core/
 │   ├── file_watcher.py
 │   ├── log_manager.py

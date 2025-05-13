@@ -1,4 +1,7 @@
-Flask==3.0.0
-Flask-WTF==1.2.1
-watchdog==4.0.0
-pymongo==4.6.1
+watchdog
+flask
+flask_wtf
+sqlalchemy
+flask_sqlalchemy
+pymongo
+flask_pymongo

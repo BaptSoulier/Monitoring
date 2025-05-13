@@ -145,3 +145,17 @@ Ce fichier sera crÃ©Ã© et utilisÃ© par le module de logging de Python. Il est vi
 2025-05-13 15:38:39,017 - INFO -  * Restarting with watchdog (windowsapi)
 2025-05-13 15:38:39,651 - WARNING -  * Debugger is active!
 2025-05-13 15:38:39,660 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 16:03:55,765 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 16:03:55,774 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 16:03:57,074 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 16:03:57,858 - WARNING -  * Debugger is active!
+2025-05-13 16:03:57,869 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 16:04:03,673 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 16:04:03,675 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 16:04:04,048 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 16:04:04,626 - WARNING -  * Debugger is active!
+2025-05-13 16:04:04,630 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 16:04:14,628 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\database\\db.py', reloading
+2025-05-13 16:04:14,629 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\database\\db.py', reloading
+2025-05-13 16:04:14,629 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\database\\db.py', reloading
+2025-05-13 16:04:14,878 - INFO -  * Restarting with watchdog (windowsapi)
