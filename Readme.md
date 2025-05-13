@@ -87,8 +87,9 @@ Ce projet est un outil de surveillance des propriétés des fichiers et de gesti
 * **`webapp/forms.py`**: Définit les formulaires utilisés dans l'application web.
 * **`webapp/templates/`**: Contient les fichiers HTML pour l'interface web.
 
-Structure du projet
+## Structure du projet
 
+```
 moniteur_systeme/
 ├── config/
 │   ├── app_config.py
@@ -114,3 +115,4 @@ moniteur_systeme/
 ├── requirements.txt
 ├── run.py
 └── README.md
+```
