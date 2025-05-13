@@ -87,14 +87,7 @@ Ce projet est un outil de surveillance des propriétés des fichiers et de gesti
 * **`webapp/forms.py`**: Définit les formulaires utilisés dans l'application web.
 * **`webapp/templates/`**: Contient les fichiers HTML pour l'interface web.
 
-## Tests
-
-Pour exécuter les tests, utilisez la commande suivante :
-
-```bash
-pytest
-
-Structure du projet
+## Structure du projet
 
 moniteur_systeme/
 ├── config/

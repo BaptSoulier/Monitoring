@@ -143,3 +143,5 @@ Ce fichier sera créé et utilisé par le module de logging de Python. Il est vi
 2025-05-13 15:38:38,166 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py', reloading
 2025-05-13 15:38:38,186 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py', reloading
 2025-05-13 15:38:39,017 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 15:38:39,651 - WARNING -  * Debugger is active!
+2025-05-13 15:38:39,660 - INFO -  * Debugger PIN: 128-031-988
