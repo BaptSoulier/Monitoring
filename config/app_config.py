@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'your_secret_key'  # Change this
+    SECRET_KEY = os.environ.get('SECRET_KEY') 
     LOG_FILE = 'logs/app.log'
     WATCHED_FILES_FILE = 'config/watched_files.json'
     DEBUG = True
