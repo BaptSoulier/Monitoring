@@ -1,0 +1,30 @@
+body {
+    padding-top: 20px;
+}
+.container {
+    max-width: 800px;
+}
+.alert {
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+li {
+    padding: 8px 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+li:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+h1, h2 {
+    margin-bottom: 20px;
+}
+form {
+    margin-bottom: 20px;
+}

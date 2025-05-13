@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Fichiers Surveillés</h1>
+    <ul>
+        {% for file in files %}
+            <li>
+                <a href="{{ url_for('main.permissions', filepath=file) }}">{{ file }}</a>
+                <form method="POST" action="{{ url_for('main.delete_file') }}" style="display: inline;">
+                    <input type="hidden" name="file_path" value="{{ file }}">
+                    <button type="submit" class="btn btn-danger btn-sm">Supprimer</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('main.add_file') }}">Ajouter un Fichier</a>
+
+    <h2>Logs</h2>
+    <ul>
+        {% for log in logs %}
+            <li>{{ log.timestamp }} - {{ log.level }} - {{ log.message }} ({{ log.file_path }})</li>
+        {% endfor %}
+    </ul>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+{% endblock %}

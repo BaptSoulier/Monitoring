@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% from "wtf.html" import render_field %}
+
+{% block content %}
+    <h1>Permissions du fichier : {{ filepath }}</h1>
+    <p>Permissions actuelles : {{ permissions }}</p>
+    <p>Checksum du fichier : <span id="checksum">{{ checksum }}</span></p>
+
+    <form method="POST" action="{{ url_for('main.permissions', filepath=filepath) }}">
+        {{ form.hidden_tag() }}
+
+        <div class="form-group">
+            <label>Permissions du Propriétaire</label>
+            <div class="form-check">
+                {{ form.owner_read(class="form-check-input") }}
+                <label class="form-check-label" for="owner_read">Lecture</label>
+            </div>
+            <div class="form-check">
+                {{ form.owner_write(class="form-check-input") }}
+                <label class="form-check-label" for="owner_write">Écriture</label>
+            </div>
+            <div class="form-check">
+                {{ form.owner_execute(class="form-check-input") }}
+                <label class="form-check-label" for="owner_execute">Exécution</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Permissions du Groupe</label>
+            <div class="form-check">
+                {{ form.group_read(class="form-check-input") }}
+                <label class="form-check-label" for="group_read">Lecture</label>
+            </div>
+            <div class="form-check">
+                {{ form.group_write(class="form-check-input") }}
+                <label class="form-check-label" for="group_write">Écriture</label>
+            </div>
+            <div class="form-check">
+                {{ form.group_execute(class="form-check-input") }}
+                <label class="form-check-label" for="group_execute">Exécution</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Permissions des Autres</label>
+            <div class="form-check">
+                {{ form.others_read(class="form-check-input") }}
+                <label class="form-check-label" for="others_read">Lecture</label>
+            </div>
+            <div class="form-check">
+                {{ form.others_write(class="form-check-input") }}
+                <label class="form-check-label" for="others_write">Écriture</label>
+            </div>
+            <div class="form-check">
+                {{ form.others_execute(class="form-check-input") }}
+                <label class="form-check-label" for="others_execute">Exécution</label>
+            </div>
+        </div>
+        
+        {{ render_field(form.octal_mode, class="form-control") }}
+
+        <button type="submit" class="btn btn-primary">Changer les Permissions</button>
+    </form>
+    <a href="{{ url_for('main.index') }}">Retour à la liste des fichiers</a>
+
+    <script>
+               function checkChecksum(filepath) {
+            fetch('/checksum/' + filepath)
+                .then(response => response.json())
+                .then(data => {
+                    const checksumElement = document.getElementById('checksum');
+                    if (data.status === 'changed') {
+                        checksumElement.textContent = data.checksum + " (Modifié !)";
+                        checksumElement.style.color = 'red';
+                        alert('Le fichier a été modifié !'); // Alerte utilisateur
+                    } else if (data.status === 'unchanged') {
+                        checksumElement.textContent = data.checksum;
+                        checksumElement.style.color = 'green';
+                    } else {
+                        checksumElement.textContent = 'Erreur : ' + data.error;
+                        checksumElement.style.color = 'black';
+                    }
+                })
+                .catch(error => {
+                    console.error('Erreur lors de la vérification du checksum :', error);
+                    const checksumElement = document.getElementById('checksum');
+                    checksumElement.textContent = 'Erreur de vérification';
+                    checksumElement.style.color = 'black';
+                });
+        }
+
+        // Appeler la fonction toutes les 5 secondes
+        const filepath = "{{ filepath }}"; // Récupérer le chemin du fichier depuis le template
+        setInterval(function() {
+            checkChecksum(filepath);
+        }, 5000);
+    </script>
+{% endblock %}
