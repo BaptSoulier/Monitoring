@@ -24,3 +24,122 @@ Ce fichier sera crÃ©Ã© et utilisÃ© par le module de logging de Python. Il est vi
 2025-05-13 14:02:09,147 - INFO -  * Restarting with watchdog (windowsapi)
 2025-05-13 14:02:09,860 - WARNING -  * Debugger is active!
 2025-05-13 14:02:09,865 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:04:06,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 14:04:06,722 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 14:04:06,723 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:04:07,214 - WARNING -  * Debugger is active!
+2025-05-13 14:04:07,218 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:04:57,036 - INFO - 127.0.0.1 - - [13/May/2025 14:04:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 14:04:57,303 - INFO - 127.0.0.1 - - [13/May/2025 14:04:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 14:04:57,306 - INFO - 127.0.0.1 - - [13/May/2025 14:04:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 14:04:57,355 - INFO - 127.0.0.1 - - [13/May/2025 14:04:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=i4ySrMf23edJEPc1GAHi HTTP/1.1" 200 -
+2025-05-13 14:07:37,329 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 14:07:37,329 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 14:07:37,330 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:07:37,861 - WARNING -  * Debugger is active!
+2025-05-13 14:07:37,867 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:08:00,910 - INFO - 127.0.0.1 - - [13/May/2025 14:08:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 14:08:01,141 - INFO - 127.0.0.1 - - [13/May/2025 14:08:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 14:08:01,143 - INFO - 127.0.0.1 - - [13/May/2025 14:08:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 14:08:01,175 - INFO - 127.0.0.1 - - [13/May/2025 14:08:01] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=wmJ8F1KzXyjdLCUek4Ny HTTP/1.1" 200 -
+2025-05-13 14:10:54,525 - INFO -  * Detected change in 'C:\\Users\\darkh\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pymongo\\__init__.py', reloading
+2025-05-13 14:10:54,920 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:10:55,382 - WARNING -  * Debugger is active!
+2025-05-13 14:10:55,387 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:13:04,622 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:13:04,623 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:13:04,623 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:13:04,802 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:13:05,485 - WARNING -  * Debugger is active!
+2025-05-13 14:13:05,493 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:13:30,114 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 14:13:30,114 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 14:13:30,115 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:13:30,660 - WARNING -  * Debugger is active!
+2025-05-13 14:13:30,665 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:14:01,028 - INFO - 127.0.0.1 - - [13/May/2025 14:14:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 14:14:01,150 - INFO - 127.0.0.1 - - [13/May/2025 14:14:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 14:14:01,153 - INFO - 127.0.0.1 - - [13/May/2025 14:14:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 14:14:01,162 - INFO - 127.0.0.1 - - [13/May/2025 14:14:01] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gM1ytkIOQgsemNFCG84P HTTP/1.1" 200 -
+2025-05-13 14:14:26,384 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:14:26,384 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:14:26,385 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:14:26,385 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:14:26,385 - INFO -  * Detected change in 'C:\\Users\\darkh\\OneDrive\\Documents\\Ynov\\B3\\Securité OS\\Projet Monitoring\\webapp\\__init__.py', reloading
+2025-05-13 14:14:26,564 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:14:27,212 - WARNING -  * Debugger is active!
+2025-05-13 14:14:27,218 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 14:14:27,394 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 14:14:27,963 - WARNING -  * Debugger is active!
+2025-05-13 14:14:27,969 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 15:38:32,753 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2025-05-13 15:38:32,756 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+2025-05-13 15:38:32,757 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2025-05-13 15:38:32,761 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8_sig.py', reloading
+2025-05-13 15:38:32,835 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py', reloading
+2025-05-13 15:38:32,836 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\re\\__init__.py', reloading
+2025-05-13 15:38:32,837 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\enum.py', reloading
+2025-05-13 15:38:32,838 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2025-05-13 15:38:32,839 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+2025-05-13 15:38:32,840 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2025-05-13 15:38:32,841 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2025-05-13 15:38:32,843 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2025-05-13 15:38:32,843 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2025-05-13 15:38:32,845 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\re\\_compiler.py', reloading
+2025-05-13 15:38:32,846 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\re\\_parser.py', reloading
+2025-05-13 15:38:32,847 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\re\\_constants.py', reloading
+2025-05-13 15:38:32,848 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\re\\_casefix.py', reloading
+2025-05-13 15:38:32,849 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+2025-05-13 15:38:32,850 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-05-13 15:38:32,851 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\gettext.py', reloading
+2025-05-13 15:38:32,852 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\__init__.py', reloading
+2025-05-13 15:38:32,853 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\decoder.py', reloading
+2025-05-13 15:38:32,855 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\scanner.py', reloading
+2025-05-13 15:38:32,856 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\encoder.py', reloading
+2025-05-13 15:38:32,857 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pathlib.py', reloading
+2025-05-13 15:38:32,857 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py', reloading
+2025-05-13 15:38:32,860 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+2025-05-13 15:38:32,861 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ipaddress.py', reloading
+2025-05-13 15:38:32,863 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+2025-05-13 15:38:32,865 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\collections\\abc.py', reloading
+2025-05-13 15:38:32,866 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+2025-05-13 15:38:32,902 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py', reloading
+2025-05-13 15:38:32,903 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\string.py', reloading
+2025-05-13 15:38:32,908 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+2025-05-13 15:38:32,941 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py', reloading
+2025-05-13 15:38:32,943 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+2025-05-13 15:38:32,944 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+2025-05-13 15:38:32,946 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py', reloading
+2025-05-13 15:38:32,946 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+2025-05-13 15:38:32,947 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\__init__.py', reloading
+2025-05-13 15:38:32,948 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_common.py', reloading
+2025-05-13 15:38:32,948 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tempfile.py', reloading
+2025-05-13 15:38:32,950 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\shutil.py', reloading
+2025-05-13 15:38:32,951 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\bz2.py', reloading
+2025-05-13 15:38:32,952 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_compression.py', reloading
+2025-05-13 15:38:32,953 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\lzma.py', reloading
+2025-05-13 15:38:32,955 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\random.py', reloading
+2025-05-13 15:38:32,956 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\bisect.py', reloading
+2025-05-13 15:38:32,957 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-05-13 15:38:32,958 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_weakrefset.py', reloading
+2025-05-13 15:38:32,959 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\inspect.py', reloading
+2025-05-13 15:38:32,960 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ast.py', reloading
+2025-05-13 15:38:32,962 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\dis.py', reloading
+2025-05-13 15:38:32,964 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\opcode.py', reloading
+2025-05-13 15:38:32,966 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\linecache.py', reloading
+2025-05-13 15:38:32,966 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+2025-05-13 15:38:32,967 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+2025-05-13 15:38:32,970 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\abc.py', reloading
+2025-05-13 15:38:32,971 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_adapters.py', reloading
+2025-05-13 15:38:32,971 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_legacy.py', reloading
+2025-05-13 15:38:33,135 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-13 15:38:33,867 - WARNING -  * Debugger is active!
+2025-05-13 15:38:33,874 - INFO -  * Debugger PIN: 128-031-988
+2025-05-13 15:38:38,145 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\policy.py', reloading
+2025-05-13 15:38:38,164 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py', reloading
+2025-05-13 15:38:38,166 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py', reloading
+2025-05-13 15:38:38,186 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py', reloading
+2025-05-13 15:38:39,017 - INFO -  * Restarting with watchdog (windowsapi)
